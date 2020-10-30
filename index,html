@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Лабораторна 5</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+        <div class="container animated fadeInDown">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img src="img/logo.png" alt="logo" class="logo">
+                </div>
+                <div class="col-lg-7 ml-auto">
+                    <nav>
+                        <ul class="menu d-flex justify-content-center">
+                            <li class="menu__item">
+                                <a href="#about">Про нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#offers">Послуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#team">Команда</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#contacts">Контакти</a>
+                            </li>                            
+                        </ul>
+                    </nav> 
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center animated fadeInLeft">
+                   <h1 class="big-title">Ласкаво просимо на сайт кретивного агенства "Tajam"!</h1>
+                   <hr>
+                   <p class="title_about">Це агенція маркетингових комунікацій повного циклу, що з 2004 року пройшла шлях від inhouse-PR медіа-холдингу, крізь рекламну агенцію Royal ® Advertising прямо в групу компаній, об’єднаних в 2019 році у високоефективну «машину»</p>
+                   <a class="btn" href="#">Дізнатись більше</a>
+                </div>
+            </div>
+        </div>
+   </header>
+   <section id="about">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="img/big-logo.png" class="big-logo animated flip" alt="BigLogo">
+                </div>
+                <div class="col-lg-7 ml-auto">
+                    <h2 style="padding-bottom: 20px;">Про нас</h2>
+                    <p>Історія вказує шлях на майбутнє. Наприклад, з ХХ сторіччя у сьогоднішній день ми винесли одну важливу тезу: світ змінюється швидше, ніж будь-хто з нас може його пізнати. І єдине, що дозволяє нам незмінно досягати успіху — це розв’язувати світ, як математичне рівняння.</p>
+                    <p>«На озброєнні» у агенства сьогодні: власна методологія створення брендів, моделі стратифікації та управління стратегічної, тактичної і операційної пластами комунікації брендів, інтегровані системи управління проектами, завданнями та аналізу даних, а головне — практичний щоденний досвід застосування їх, як для корпоративних міжнародних компаній, так і для автохтонних бізнесів.</p>
+                    <a class="btn" href="#">Дізнатись більше</a>  
+                </div>
+            </div> 
+        </div>
+   </section>
+   <section id="offers">
+       <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Послуги</h2>
+                    <hr>
+                    <p class="text">Ми спеціалізуємося на сервісах, які у різних перспективах орієнуються на досягненні бізнес-результатів клієнтів, всупереч процесам нескінченного пошуку</p>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div class="col-lg-4">
+                   <div class="offer">
+                       <i class="fas fa-calendar-check offer__icon"></i>
+                       <h3>Аутсорсинг операційного маркетингу “під ключ”</h3>
+                       <p>Tajam знається на щоденному обслуговуванні середніх та довгих циклів маркетингу успішних компаній</p>
+                   </div>              
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer">
+                        <i class="fas fa-address-book offer__icon"></i>
+                        <h3>Створення брендів та їх стратегічний маркетинг</h3>
+                        <p>Комплексний підхід до комунікацій на рівні бренду</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer">
+                        <i class="fas fa-lightbulb offer__icon"></i>
+                        <h3>Креатив та втілення</h3>
+                        <p><br>Реалізація окремих рекламних кампаній, співпрацюючи з міжнародними компаніями та використовуючи різні підходи до формалізації брендів</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer">
+                        <i class="fas fa-chart-line offer__icon"></i>
+                        <h3>Повний операційний цикл по досягненню маркетингових показників</h3>
+                        <p>Це означає, що наша компанія органічно долучається до марком-команди існуючого бізнесу або впроваджує її у разі необхідності, беручи на себе здійснення повного операційного циклу діяльності по досягненню маркетингових показників, які задовольнятимуть стейкхолдерів</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer">
+                        <i class="fas fa-route offer__icon"></i>
+                        <h3>Оптимальна модель</h3>
+                        <p>Ми створили оптимальну модель, що дозволяє одночасно керувати стратегічними, тактичними та операційними їх потребами, фіксуючи всі необхідні показники</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="offer">
+                        <i class="fab fa-sketch offer__icon"></i>
+                        <h3>Окремий проектний підхід</h3>
+                        <p>Поряд із довгостроковим співробітництвом, компанія використовує й окремий проектний підхід, в рамках якого створює креативні кампанії, інтегровані до усіх типів медіа, використовуючи глибинні інсайти аудиторії</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   <section id="team">
+       <div class="container">
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                    <h2>Наша команда</h2>
+                    <hr>
+                    <p class="text">Це виняткові практики, які крок за кроком пройшли увесь шлях у професії до своєї майстерності</p>
+                </div>   
+            </div>
+            <div class="row d-flex">
+                    <div class="col-lg-3 text-center team_member">
+                        <img src="img/worker_w.png" alt="worker">
+                        <h3>Марія</h3>
+                        <p>CEO, Засновник</p>
+                        <hr>
+                    </div>
+                    <div class="col-lg-3 text-center team_member">
+                        <img src="img/worker_m.png" alt="worker">
+                        <h3>Іван</h3>
+                        <p>Інженер</p>
+                        <hr>
+                    </div>
+                   <div class="col-lg-3 text-center team_member">
+                       <img src="img/worker_w.png" alt="worker">
+                       <h3>Олена</h3>
+                       <p>Дизайнер</p>
+                       <hr>
+                   </div>
+                   <div class="col-lg-3 text-center team_member">
+                       <img src="img/worker_m.png" alt="worker">
+                       <h3>Петро</h3>
+                       <p>Креативний директор</p>
+                       <hr>
+                   </div>                   
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <a class="btn" href="#">Приєднатись до команди</a>
+                </div>
+            </div> 
+        </div>
+   </section>
+   <footer id="contacts">
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-12 text-center">
+                   <h2>Головний офіс</h2>
+                   <hr>
+                   <p>14, Ломоносова вулиця, Київ, Україна</p>
+                   <p>Підтримка: abc@gmail.com</p>
+                   <p>Телефон: +380 44 333 33 34</p>
+               </div>
+           </div>
+       </div>
+   </footer>
+</body>
+</html>
